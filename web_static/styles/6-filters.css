@@ -49,3 +49,29 @@
     font-size: 14px;
     margin-top: 2%;
     }
+
+.filters .popover{
+    display: none;
+    color: #FAFAFA;
+    width: 100%;
+    border: #DDDDDD 1px solid; 
+    border-radius: 4px;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+	display: block;
+}
+
+.popover h2{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.popover ul{
+    list-style: none;    
+}
+
+.popover li{
+    padding: 0 20px;
+}
